@@ -1,1 +1,1 @@
-# SimpleWrappedEther
+# Simple Wrapped Ether
