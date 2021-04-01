@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract SimpleWrappedEther is ERC20 {
     
     event WrapEther(address indexed _wrapper, uint indexed _amount);
-    event UnWrapEther(address indexed _unwarapper, uint indexed _amount);
+    event UnWrapEther(address indexed _unwrapper, uint indexed _amount);
     
     constructor() ERC20('SimpleWrappedEther', 'SWETH') {}
     
